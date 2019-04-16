@@ -67,5 +67,22 @@ header .overlay {
 
 p{
     font-family: p22-underground, sans-serif;
-    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+h5{
+    font-family: p22-underground, sans-serif;
+    font-weight: bold;
+}
+
+div .row {
+  background-color: #FFFFFF;
+}
+
+.card img{filter: grayscale(0.9);
+    transition: all ease 1s;
+}
+.card:hover img{
+    filter:grayscale(0);
 }
